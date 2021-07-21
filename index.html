@@ -3,17 +3,41 @@
 <head>
     <title>Project 77- Conole Web App- Vrinda</title>
     <h1 style= "text-align: center;"><p>More On Visual Studio</p></h1>
+
+    <p>
+        <h3 id="First"></h3>
+    </p>
+
+    <p>
+        <h3 id="Last"></h3>
+    </p>
+
+    <p>
+        <h3 id="merge_elements"></h3>
+    </p>
+
+    <p>
+        <h3 id="alphabet_a"></h3>
+    </p>
+
+    <p>
+        <h3 id="alphabet_b"></h3>
+    </p>
+
+    <p>
+        <h3 id="merge_numbers"></h3>
+    </p>
 </head>
 
-<body style= "background-color: rgb(0, 255, 153, 21);">
+<body style= "background-color: rgb(132, 0, 255);">
 
     <h1 style= "text-align: center;"><p>What is Visual Studio? How to set it up?</p></h1>
     <h2 style= "text-align: center;"><p>Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.<br>
 
         <h2 style= "text-align: center;"><p>Steps to set up Visual Studio</p></h2>
 
-        	<p style= "text-align: center;">Step 1 - Make sure your computer is ready for Visual Studio.<br></p>
-        	<p style= "text-align: center;">Step 2 - Download Visual Studio.<br></p>
+        	<p style= "text-align: center;">Step 1 - If your laptop is of Windows, then click on windows or else click on Mac<br></p>
+        	<p style= "text-align: center;">Step 2 - Then you will get an option to save the link. You can choose any folder you want to save it in.<br></p>
         	<p style= "text-align: center;">Step 3 - Install the Visual Studio installer.<br></p>
         	<p style= "text-align: center;">Step 4 - Choose workloads.<br></p>
         	<p style= "text-align: center;">Step 5 - Choose individual components (Optional)<br></p>
@@ -31,24 +55,38 @@
             <p style= "text-align: center;">Click the "Console" tab in that window. You should use the console. log() method to print to console JavaScript. The JavaScript console log function is mainly used for code debugging as it makes the JavaScript print the output to the console.<br></p>
             </p></h2>
 
-            <var first_name = "Ranbir";
-            console.log (first_name);>
-                </var>
-                
-                <var last_name = "Kapoor";
-                console.log (last_name);>
-                </var>
-                
-                <var  a = 10;
-                console.log (a);>
-                </var>
-                
-                <var b = 5;
-                console.log (b);> 
-                </var>
-                
-                <var add = a + b;
-                console.log (add);> 
-                </var>
 </body>
+
+<script>
+
+            var first_name = ["Vrinda"];
+            console.log (first_name);
+            document.getElementById("First").innerHTML = first_name;
+                
+                var last_name = ["Tyagi"];
+                console.log (last_name);
+                document.getElementById("Last").innerHTML = last_name;
+
+                var all_names;
+
+                all_names.push() = first_name.concat(last_name);
+                console.log(all_names);
+                document.getElementById("merge_elements").innerHTML = all_names;
+                
+                var  a = ["10"];
+                console.log (a);
+                document.getElementById("alphabet_a").innerHTML = a;
+
+                
+                var b = ["5"];
+                console.log (b);
+                document.getElementById("alphabet_b").innerHTML = b;
+
+                var add;
+                
+                add = a + b;
+                console.log (add); 
+                document.getElementById("merge_numbers").innerHTML = add;
+                
+</script>
 </html>
